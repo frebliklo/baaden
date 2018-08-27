@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-static'
+import { Link, PrefetchWhenSeen } from 'react-static'
 import styled from 'styled-components'
 import Moment from 'react-moment'
 
@@ -66,6 +66,7 @@ const Image = styled.img`
 
 const Card = ({ date, excerpt, image, title, url }) => (
   <Wrapper to={url}>
+    <PrefetchWhenSeen path={url} />
     <Title>{title}</Title>
     <Date><Moment format="DD. MMM, YYYY">{date}</Moment></Date>
     <Excerpt>{excerpt}</Excerpt>

@@ -45,7 +45,7 @@ export default {
   // preact: true,
   plugins: ['react-static-plugin-styled-components'],
   getSiteData: () => ({
-    title: 'React Static with Netlify CMS',
+    title: 'Båden',
   }),
   getRoutes: async () => {
     const posts = await getPosts()
@@ -53,10 +53,16 @@ export default {
       {
         path: '/',
         component: 'src/containers/Home',
+        getData: () => ({
+          posts
+        }),
       },
       {
         path: '/about',
         component: 'src/containers/About',
+        getData: () => ({
+          posts
+        }),
       },
       {
         path: '/posts',
@@ -69,6 +75,7 @@ export default {
           component: 'src/containers/Post',
           getData: () => ({
             post,
+            posts
           }),
         })),
       },

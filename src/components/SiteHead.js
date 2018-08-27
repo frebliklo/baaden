@@ -12,7 +12,7 @@ const SiteHead = ({ title }) => (
     <link rel="icon" type="image/png" sizes="16x16" href={require('../assets/favicon/favicon-16x16.png')} />
     <link rel="mask-icon" href={require('../assets/favicon/safari-pinned-tab.svg')} color={theme.colors.blueDark} />
     <link rel="shortcut icon" href={require('../assets/favicon/favicon-16x16.png')} />
-    <title>Båden | {title}</title>
+    <title>{title} | Båden</title>
     <link href="https://fonts.googleapis.com/css?family=Catamaran:400,500,700,800,900" rel="stylesheet" />
   </Head>
 )

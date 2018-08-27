@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import { withRouteData } from 'react-static'
 import styled from 'styled-components'
 
+import Card from '../components/Card';
 import Container from '../components/Container'
 import SiteHead from '../components/SiteHead'
-import Card from '../components/Card';
+import WaveContainer from '../components/WaveContainer'
 
 const Page = styled.div`
   margin: 3.2rem 0 6.4rem 0;
@@ -76,8 +77,6 @@ class Posts extends Component {
   }
 
   render() {
-    console.log(this.props.posts)
-
     return (
       <div>
         <SiteHead title="Indlæg" />
@@ -95,6 +94,9 @@ class Posts extends Component {
             </Grid>
           </Container>
         </Page>
+        <footer>
+          <WaveContainer />
+        </footer>
       </div>
     )
   }

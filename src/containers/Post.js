@@ -5,12 +5,13 @@ import Moment from 'react-moment'
 import Markdown from 'react-markdown'
 
 import Container from '../components/Container'
+import Footer from '../components/Footer'
 import SiteHead from '../components/SiteHead'
 
 import { theme, sizes } from '../constants'
 
 const Article = styled.article`
-  margin-top: 6.4rem;
+  margin: 3.2rem 0 6.4rem 0;
   min-height: 60vh;
 `
 
@@ -63,19 +64,22 @@ const Content = styled(Markdown)`
   }
 `
 
-const Post = ({ post }) => (
-  <Article>
-    <SiteHead title={post.data.title} />
-    <Container>
-      <Title>{post.data.title}</Title>
-      <SubTitle>
-        <Timestamp><Moment format="DD. MMM, YYYY">{post.data.date}</Moment></Timestamp>
-        |
-        <Author href="https://www.instagram.com/vhvh/">Julie Valentin-Hjorth</Author>
-      </SubTitle>
-      <Content source={post.content} escapeHtml={false} />
-    </Container>
-  </Article>
+const Post = ({ post, posts }) => (
+  <div>
+    <Article>
+      <SiteHead title={post.data.title} />
+      <Container>
+        <Title>{post.data.title}</Title>
+        <SubTitle>
+          <Timestamp><Moment format="DD. MMM, YYYY">{post.data.date}</Moment></Timestamp>
+          |
+          <Author href="https://www.instagram.com/vhvh/">Julie Valentin-Hjorth</Author>
+        </SubTitle>
+        <Content source={post.content} escapeHtml={false} />
+      </Container>
+    </Article>
+    <Footer posts={posts} count={2} />
+  </div>
 )
 
 export default withRouteData(Post)

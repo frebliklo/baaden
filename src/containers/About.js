@@ -1,7 +1,9 @@
 import React from 'react'
+import { withRouteData } from 'react-static'
 import styled from 'styled-components'
 
 import Button from '../components/Button'
+import Footer from '../components/Footer'
 import SiteHead from '../components/SiteHead'
 
 import boatImg from '../assets/about/boat.png'
@@ -42,7 +44,7 @@ const Text = styled.div`
   }
 `
 
-const About = () => (
+const About = ({ posts }) => (
   <Page>
     <SiteHead title="Om" />
     <Content>
@@ -53,12 +55,13 @@ const About = () => (
         <h1>Hvad foregår der?!?</h1>
         <p>Jeg bygger en lille motorbåd. Det betyder laser-skæring, 3D-printing, voldsomme mængder epoxy, blod, sved og tårer, men forhåbentlig også en masse morskab hen på sensommeren.</p>
         <p>Hvis det har fanget din interesse, eller hvis du drømmer om at gøre det samme, kan du se med her, hvor jeg dokumenterer min process.</p>
-        <p>Planerne stammer fra firmaet Rapid Whale, og du kan se mere på <a href="http://rapidwhale.com/mini-boat.php" target="_blank">Rapid Whale's hjemmeside</a></p>
+        <p>Planerne stammer fra firmaet Rapid Whale, og du kan se mere på <a href="http://rapidwhale.com/mini-boat.php">Rapid Whale's hjemmeside</a></p>
         <p>- Julie</p>
         <Button align="flex-start" to="/">Lad mig se</Button>
       </Text>
     </Content>
+    <Footer posts={posts} count={2} />
   </Page>
 )
 
-export default About
+export default withRouteData(About)
