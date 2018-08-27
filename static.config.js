@@ -63,13 +63,6 @@ export default {
         component: 'src/containers/Posts.js',
         getData: () => ({
           posts
-        })
-      },
-      {
-        path: '/blog',
-        component: 'src/containers/Blog',
-        getData: () => ({
-          posts,
         }),
         children: posts.map(post => ({
           path: `/post/${post.data.slug}`,

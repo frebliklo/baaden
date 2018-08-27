@@ -1,10 +1,11 @@
 import React from 'react'
-import { withRouteData, Link } from 'react-static'
+import { withRouteData } from 'react-static'
 import styled from 'styled-components'
 import Moment from 'react-moment'
 import Markdown from 'react-markdown'
 
 import Container from '../components/Container'
+import SiteHead from '../components/SiteHead'
 
 import { theme, sizes } from '../constants'
 
@@ -64,6 +65,7 @@ const Content = styled(Markdown)`
 
 const Post = ({ post }) => (
   <Article>
+    <SiteHead title={post.data.title} />
     <Container>
       <Title>{post.data.title}</Title>
       <SubTitle>
