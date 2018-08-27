@@ -75,7 +75,7 @@ a {
 
 .dual-image-container__img {
   width: 100%;
-  margin-bottom: 2.4rem;
+  margin-bottom: 2.4rem !important;
 }
 
 .mb-sm {

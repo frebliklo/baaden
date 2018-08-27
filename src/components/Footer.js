@@ -38,9 +38,18 @@ const PostsGrid = styled.div`
 `
 
 class Footer extends Component {
+  sortPosts = posts => posts.sort((a,b) => {
+      if(a.data.date > b.data.date) {
+        return -1
+      } else if(a.data.date < b.data.date) {
+        return 1
+      } 
+      return 0
+    })
+
   renderPosts = (posts,count = 2) => {
-    const slicedPosts = posts.slice(posts.length-count,posts.length)
-    const previewPosts = slicedPosts.reverse()
+    const sortedPosts = this.sortPosts(posts)
+    const previewPosts = sortedPosts.slice(0,count)
 
     return previewPosts.map(post => (
         <Card
@@ -57,6 +66,8 @@ class Footer extends Component {
 
   render() {
     const { count, posts } = this.props
+
+    console.log(posts)
 
     return (
       <footer>

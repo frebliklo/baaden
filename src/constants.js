@@ -34,3 +34,5 @@ export const sizes = {
   tabLand: '75em',
   desktop: '112.5em'
 }
+
+export const baseUrl = 'https://www.baaden.koeln'

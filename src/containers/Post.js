@@ -9,6 +9,7 @@ import Footer from '../components/Footer'
 import SiteHead from '../components/SiteHead'
 
 import { theme, sizes } from '../constants'
+import SoMeHead from '../components/SoMeHead';
 
 const Article = styled.article`
   margin: 3.2rem 0 6.4rem 0;
@@ -68,6 +69,12 @@ const Post = ({ post, posts }) => (
   <div>
     <Article>
       <SiteHead title={post.data.title} />
+      <SoMeHead
+        title={post.data.title}
+        excerpt={post.excerpt}
+        image={post.data.thumbnail}
+        url={`/posts/${post.data.slug}`}
+      />
       <Container>
         <Title>{post.data.title}</Title>
         <SubTitle>
