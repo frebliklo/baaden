@@ -16,6 +16,7 @@ const PostsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   z-index: 200;
+  padding: 0 1.6rem;
 `
 
 const PostsHeadline = styled.h2`
