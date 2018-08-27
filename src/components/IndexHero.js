@@ -21,7 +21,7 @@ const Header = styled.header`
 `
 
 const Title = styled.h1`
-  font-size: 8.8rem;
+  font-size: 8rem;
   font-weight: 600;
   text-transform: uppercase;
   margin: 0;

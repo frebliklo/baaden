@@ -70,7 +70,7 @@ class Posts extends Component {
         excerpt={post.excerpt}
         image={post.data.thumbnail}
         title={post.data.title}
-        url={`/blog/post/${post.data.slug}`}
+        url={`/posts/${post.data.slug}`}
       />
     ))
   }
