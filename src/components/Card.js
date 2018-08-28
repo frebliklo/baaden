@@ -69,6 +69,10 @@ const Image = styled.img`
   z-index: -5;
 `
 
+const CardButton = styled(Button)`
+  bottom: 1.6rem;
+`
+
 const Card = ({ date, excerpt, image, title, url }) => (
   <CardWrapper>
     <StyledLink to={url}>
@@ -77,7 +81,7 @@ const Card = ({ date, excerpt, image, title, url }) => (
       <Date><Moment format="DD. MMM, YYYY">{date}</Moment></Date>
       <Excerpt>{excerpt}</Excerpt>
       <Image src={image} />
-      <Button to={url} float="right">Se mere</Button>
+      <CardButton to={url} float="right">Se mere</CardButton>
     </StyledLink>
   </CardWrapper>
 )
