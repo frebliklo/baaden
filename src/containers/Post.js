@@ -7,12 +7,12 @@ import Markdown from 'react-markdown'
 import Container from '../components/Container'
 import Footer from '../components/Footer'
 import SiteHead from '../components/SiteHead'
+import SoMeHead from '../components/SoMeHead'
 
 import { theme, sizes } from '../constants'
-import SoMeHead from '../components/SoMeHead';
 
 const Article = styled.article`
-  margin: 3.2rem 0 6.4rem 0;
+  margin: 1.6rem 0 6.4rem 0;
   min-height: 60vh;
 `
 
@@ -20,7 +20,7 @@ const Title = styled.h1`
   font-size: 4.8rem;
   line-height: 1.167;
   text-align: center;
-  margin: 3.2rem 0 1.6rem 0;
+  margin: 1.6rem 0;
 
   @media (min-width: ${sizes.tabPort}) { margin-bottom: 1.6rem 0 .8rem 0; }
 `

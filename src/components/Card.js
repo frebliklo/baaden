@@ -7,12 +7,11 @@ import Button from './Button'
 
 import { theme } from '../constants'
 
-const Wrapper = styled(Link)`
+const CardWrapper = styled.div`
   position: relative;
   overflow: hidden;
   box-shadow: ${theme.shadows.default};
   border-radius: .8rem;
-  padding: 1.2rem 1.6rem;
   background: linear-gradient(to bottom, #FFF 0%, #FFF 30%, rgba(255,255,255,.05) 100%);
   transition: box-shadow 200ms ease-in;
   text-decoration: none;
@@ -21,6 +20,12 @@ const Wrapper = styled(Link)`
     box-shadow: ${theme.shadows.hover};
     transition: box-shadow 220ms ease-out;
   }
+`
+
+const StyledLink = styled(Link)`
+  display: block;
+  text-decoration: none;
+  padding: 1.2rem 1.6rem;
 `
 
 const Title = styled.h3`
@@ -65,14 +70,16 @@ const Image = styled.img`
 `
 
 const Card = ({ date, excerpt, image, title, url }) => (
-  <Wrapper to={url}>
-    <PrefetchWhenSeen path={url} />
-    <Title>{title}</Title>
-    <Date><Moment format="DD. MMM, YYYY">{date}</Moment></Date>
-    <Excerpt>{excerpt}</Excerpt>
-    <Image src={image} />
-    <Button to={url} style={{ float: 'right' }}>Se mere</Button>
-  </Wrapper>
+  <CardWrapper>
+    <StyledLink to={url}>
+      <PrefetchWhenSeen path={url} />
+      <Title>{title}</Title>
+      <Date><Moment format="DD. MMM, YYYY">{date}</Moment></Date>
+      <Excerpt>{excerpt}</Excerpt>
+      <Image src={image} />
+      <Button to={url} float="right">Se mere</Button>
+    </StyledLink>
+  </CardWrapper>
 )
 
 export default Card

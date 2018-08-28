@@ -67,8 +67,6 @@ class Footer extends Component {
   render() {
     const { count, posts } = this.props
 
-    console.log(posts)
-
     return (
       <footer>
         <WaveContainer>
