@@ -113,5 +113,6 @@ export default {
       </Head>
       <Body>{children}</Body>
     </Html>
-  )
+  ),
+  siteRoot: 'https://baaden.koeln',
 }

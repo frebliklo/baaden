@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link, PrefetchWhenSeen } from 'react-static'
 import styled from 'styled-components'
 import Moment from 'react-moment'
 
@@ -15,17 +14,13 @@ const CardWrapper = styled.div`
   background: linear-gradient(to bottom, #FFF 0%, #FFF 30%, rgba(255,255,255,.05) 100%);
   transition: box-shadow 200ms ease-in;
   text-decoration: none;
+  padding: 1.2rem 1.6rem;
+  color: ${theme.colors.fg};
 
   &:hover {
     box-shadow: ${theme.shadows.hover};
     transition: box-shadow 220ms ease-out;
   }
-`
-
-const StyledLink = styled(Link)`
-  display: block;
-  text-decoration: none;
-  padding: 1.2rem 1.6rem;
 `
 
 const Title = styled.h3`
@@ -69,20 +64,13 @@ const Image = styled.img`
   z-index: -5;
 `
 
-const CardButton = styled(Button)`
-  bottom: 1.6rem;
-`
-
 const Card = ({ date, excerpt, image, title, url }) => (
   <CardWrapper>
-    <StyledLink to={url}>
-      <PrefetchWhenSeen path={url} />
-      <Title>{title}</Title>
-      <Date><Moment format="DD. MMM, YYYY">{date}</Moment></Date>
-      <Excerpt>{excerpt}</Excerpt>
-      <Image src={image} />
-      <CardButton to={url} float="right">Se mere</CardButton>
-    </StyledLink>
+    <Title>{title}</Title>
+    <Date><Moment format="DD. MMM, YYYY">{date}</Moment></Date>
+    <Excerpt>{excerpt}</Excerpt>
+    <Image src={image} />
+    <Button to={url} float="right">Se mere</Button>
   </CardWrapper>
 )
 
