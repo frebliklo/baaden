@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Båden males pt. 2! (Så bliver den også blå)
+title: Båden males 2! (Så bliver den også blå)
 date: '2018-09-02T14:45:12+02:00'
 thumbnail: /uploads/img_0357.png
 ---
