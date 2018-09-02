@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Båden males pt. 1! (Først bliver den hvid)
+title: Båden males 1! (Først bliver den hvid)
 date: '2018-09-01T18:14:22+02:00'
 thumbnail: /uploads/img_0297.jpg
 ---
