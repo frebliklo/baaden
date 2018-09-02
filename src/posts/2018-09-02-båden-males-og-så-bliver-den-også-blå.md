@@ -16,4 +16,6 @@ Også efter anden lag maling lod den skarpe kant  desværre stadig vente på sig
 
 ![null](/uploads/img_0357.png)
 
+![](/uploads/img_0366.png)
+
 I morgen skal båden have en rød stribe, og jeg vil forsøge at rette lidt på kanten mellem det blå og det hvide med en pensel.
