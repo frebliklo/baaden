@@ -2,7 +2,7 @@
 layout: blog
 title: Båden males 2! (Så bliver den også blå)
 date: '2018-09-02T14:45:12+02:00'
-thumbnail: /uploads/img_0357.png
+thumbnail: /uploads/img_0366.png
 ---
 Selvom planen egentlig var at jeg selv skulle bygge den båd, må jeg snart erkende at min far har haft ret stor del i projektet. Udover det meste af epoxyarbejdet, fixede han også lige anden lag hvid maling på båden. Ved min ankomst stod båden derfor allerede klar til den blå farve, som blev lagt efter en hurtigt let slibning.
 
