@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Båden males 2! (Så bliver den også blå... og rød)
+title: Båden males 2! (Så bliver den også blå og rød)
 date: '2018-09-02T14:45:12+02:00'
 thumbnail: /uploads/img_0366.png
 ---
@@ -20,4 +20,4 @@ Også efter anden lag maling lod den skarpe kant  desværre stadig vente på sig
 
 Dagen efter fik båden den røde og afgørende fartstribe, samt en opstrammer langs den blå og hvide kant - og nu rækker min tålmodighed ikke længere til malerarbejde. Næste skridt er mekanik og elektronik!
 
-![](/uploads/img_0370.png)
+![null](/uploads/img_0370.png)
