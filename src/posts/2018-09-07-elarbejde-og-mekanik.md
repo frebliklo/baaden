@@ -8,19 +8,19 @@ Mine fine venner og gør-det-selv-mænd Morten og Jens-Christian, har haft den v
 
 Gudskelov var det intet problem for det to herrer som glædeligt tog fat og arbejdede konstant med lodning, sikringer, kontakt, motorcontroller og jegvedikkehvad i halvandet døgn i træk.
 
-![](/uploads/img_0405.png)
+![null](/uploads/img_0405.png)
 
-![](/uploads/img_0392.png)
+![null](/uploads/img_0392.png)
 
-![](/uploads/img_0394.png)
+![null](/uploads/img_0394.png)
 
-![](/uploads/img_0424.png)
+![null](/uploads/img_0424.png)
 
-![](/uploads/img_0411.png)
+![null](/uploads/img_0411.png)
 
 Mekanik, boring og fæstning, derimod, har jeg godt selv kunne fikse. Det drejer sig rat, reb og i det hele taget styring af båden samt lanternen og tæppe i bunden.
 
-![](/uploads/img_1743.png)
+![null](/uploads/img_1743.png)
 
 Udover en båd der kan sejle fremad med tre hastigheder og to bagud, har Morten og Jens-Christian arrangeret det sådan at båden nu kommer til at have følgende features:
 
@@ -33,4 +33,4 @@ Vi lavede en testkørsel af al elektronik inkl motor mens båden stadig var på 
 
 Næste skridt var således at bringe båden hjem til snarlig søsætning i København, og det skønne ved en lillebitte båd er heldigvis også at den kan være i en stationcar - vi ses derhjemme!
 
-![](/uploads/img_0415-1.png)
+![null](/uploads/img_0415-1.png)
