@@ -4,7 +4,7 @@ title: Elarbejde og mekanik
 date: '2018-09-07T17:34:30+02:00'
 thumbnail: /uploads/img_1743.png
 ---
-Mine fine venner og gør-det-selv-mænd Morten og Jens-Christian, har haft den venlighed at hjælpe mig med al elarbejdet til båden. Endnu en del af projektet hvor min naive selvtillid og gåpåmod måske har overskygget virkeligheden: Den del  havde jeg under ingen omstændigheder kunnet klare selv. 
+Mine fine venner og gør-det-selv-mænd Morten og Jens Christian, har haft den venlighed at hjælpe mig med al elarbejdet til båden. Endnu en del af projektet hvor min naive selvtillid og gåpåmod måske har overskygget virkeligheden: Den del  havde jeg under ingen omstændigheder kunnet klare selv. 
 
 Gudskelov var det intet problem for det to herrer som glædeligt tog fat og arbejdede konstant med lodning, sikringer, kontakt, motorcontroller og jegvedikkehvad i halvandet døgn i træk.
 
@@ -22,7 +22,7 @@ Mekanik, boring og fæstning, derimod, har jeg godt selv kunne fikse. Det drejer
 
 ![null](/uploads/img_1743.png)
 
-Udover en båd der kan sejle fremad med tre hastigheder og to bagud, har Morten og Jens-Christian arrangeret det sådan at båden nu kommer til at have følgende features:
+Udover en båd der kan sejle fremad med tre hastigheder og to bagud, har Morten og Jens Christian arrangeret det sådan at båden nu kommer til at have følgende features:
 
 * En grøn/rød lanterne foran til når man skal sejle om aftenen
 * Et display der måler Volt og energiforbrug af batteriet
