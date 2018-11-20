@@ -3,6 +3,7 @@ layout: blog
 title: 'En begyndelse'
 date: 2018-05-31T00:46:54.386Z
 thumbnail: /uploads/minibaad.jpg
+language: da
 ---
 
 Da der hverken er en bådbygger eller håndværker gemt i mig, brugte jeg en del tid på at undersøge hvad i alverden det var jeg skulle til at kaste mig ud i, og om min evner nu også ville kunne leve op til mine egne forventninger.

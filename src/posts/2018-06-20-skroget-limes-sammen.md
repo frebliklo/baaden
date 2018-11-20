@@ -3,6 +3,7 @@ layout: blog
 title: 'Skroget limes sammen'
 date: 2018-06-20T00:46:54.386Z
 thumbnail: /uploads/skrogetlimessammen/skrogetlimes4.png
+language: da
 ---
 
 er og kanter. Derudover er der i begge sider af båden to hulrum, som senere skal fyldes med skum for at holde båden flydende hvis den kæntrer eller hvis der kommer vand ind. De hulrum er så små at man ikke kan se ind samtidig med at epoxyen fordeles, og det gør processen endnu mere besværligt.

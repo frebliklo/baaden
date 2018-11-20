@@ -3,6 +3,7 @@ layout: blog
 title: 'En båd har koøjer'
 date: 2018-06-29T00:46:54.386Z
 thumbnail: /uploads/kooejer/ko4.png
+language: da
 ---
 
 Det oprindelige ruf (delen der stikker op som var der en kahyt) best&aring;r af 4 tr&aelig;dele uden den store palaver, men da jeg samlede delene synes jeg at det kunne v&aelig;re fint med et ko&oslash;je eller seks. Heldigvis havde jeg stadig en del reste fra de udsk&aring;rne tr&aelig;plader og lavede en ny version med 3 ko&oslash;jer p&aring; hver side + rammer og akryl-ruder.

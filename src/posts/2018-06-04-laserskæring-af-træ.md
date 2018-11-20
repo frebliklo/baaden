@@ -3,6 +3,7 @@ layout: blog
 title: 'Laserskæring af træ'
 date: 2018-06-04T00:46:54.386Z
 thumbnail: /uploads/lasercut/laser1.png
+language: da
 ---
 
 Når man køber planer til  båden, kommer skrogtegningerne som dxf.- og pdf-filer, og er sådan set klar at blive skåret på en laserskærer. Dog er det svært at finde laserskærere i samme størrelse som de angivne pladestørrelse, hvorfor jeg måtte rykke lidt rundt på tegningerne og fordele dem på flere og mindre pladestørrelser. Den største plantegning er dog lige omkring 900 xx 600 mm, og de mindste laserskærere (der skærer plader på 400 x 600 mm) er derfor ikke tilstrækkelige til projektet. 

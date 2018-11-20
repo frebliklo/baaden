@@ -3,6 +3,7 @@ layout: blog
 title: 'Akryl, gummi og 3D-print'
 date: 2018-06-07T00:46:54.386Z
 thumbnail: /uploads/akrylgummidele/akryl2.png
+language: da
 ---
 
 Nå men jeg kender Fablab-leder Line på Teknologisk Institut i Høje Taastrup og ved at de har en 3D-printer som man kan bruge. Og den var god nok - den kunne bruges og Line var endda så sød at printe delene for mig (som man også får tegningerne til når man køber planerne), da jeg ikke aner hvordan man gør. 

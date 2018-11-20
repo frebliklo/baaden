@@ -3,6 +3,7 @@ layout: blog
 title: Prime Time
 date: 2018-08-25T00:46:54.386Z
 thumbnail: /uploads/img-0291-2.png
+language: da
 ---
 Luksus er n&aring;r ens far laver det resterende epoxyarbejde for &eacute;n mens man er v&aelig;k - dvs to lag p&aring; indeni og uden p&aring;, s&aring;ledes at b&aring;den er klar til malerarbejdet!
 

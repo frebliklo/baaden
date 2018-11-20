@@ -3,6 +3,7 @@ layout: blog
 title: 'Mini Boat fra Rapid Whale'
 date: 2018-05-28T00:46:54.386Z
 thumbnail: /uploads/minibaad.jpg
+language: da
 ---
 Manglende forståelse for begrænsning af egne evner samt ukuelig virketrang har fået mig til at bygge en båd. I foråret faldt jeg over en video med den fedeste (eneste?) DIY-motorbåd jeg længe har set: En "Mini boat" fra firmaet [Rapid Whale](http://rapidwhale.com/mini-boat.php).
 

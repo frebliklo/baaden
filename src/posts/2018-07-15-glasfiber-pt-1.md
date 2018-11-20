@@ -3,6 +3,7 @@ layout: blog
 title: 'Glasfiber pt.1'
 date: 2018-07-15T00:46:54.386Z
 thumbnail: /uploads/glasfiber/5.png
+language: da
 ---
 
 Den mest kedelige og langsommelige fase af bådbyggeriet er også den vigtigste: Vandtætning bestående af epoxy og glasfiber på både inder- og yderside. Epoxyen skal helst tørre til næste dag, og hvert skridt kræver derfor en del ventetid. I denne omgang havde jeg kun tre dage til at arbejde i og kunne derfor kun nå den første del af arbejdet.
