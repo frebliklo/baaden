@@ -3,6 +3,7 @@ layout: blog
 title: Båden males 1! (Først bliver den hvid)
 date: '2018-09-01T18:14:22+02:00'
 thumbnail: /uploads/img_0297.jpg
+language: da
 ---
 Naturligvis er praktik som vandtæthed og fremdrift vigtigt for en motorbåd, men derfor skal man jo ikke undervurdere værdien af den æstetiske kvalitet. 
 

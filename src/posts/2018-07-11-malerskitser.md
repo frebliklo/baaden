@@ -3,6 +3,7 @@ layout: blog
 title: 'Malerskitser'
 date: 2018-07-11T00:46:54.386Z
 thumbnail: /uploads/malerskitser/skitser2.png
+language: da
 ---
 
 P&aring; en husb&aring;d p&aring; Sejer&oslash; er der ro til tankerne, men ogs&aring; rig mulighed for at lade sig inspirere af lyst-og fiskerb&aring;ds&aelig;stetik. Fra husb&aring;dens tag er der 360 graders udsyn over havnen, hvor alt fra joller til skonnerter l&aelig;gger til.

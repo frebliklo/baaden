@@ -3,6 +3,7 @@ layout: blog
 title: 'Samling af skrog - det ligner en båd'
 date: 2018-06-17T00:46:54.386Z
 thumbnail: /uploads/samlingskrog/samlingskrog1.png
+language: da
 ---
 
 I weekenden havde jeg besøg af mine fine venner Morten, Mette og Nanna som hjalp mig med at slibe og samle de plader som blev samlet med epoxy sidste weekend. Lørdagen startede med at pladeslibning, men desværre viste det sig at pladerne ikke var limet helt tæt, og det var derfor nødvendigt at give dem endnu en omgang epoxy, og vi måtte vente med at samle skroget til søndag. 

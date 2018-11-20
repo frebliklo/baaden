@@ -3,6 +3,7 @@ layout: blog
 title: 'Samling af plader'
 date: 2018-06-10T00:46:54.386Z
 thumbnail: /uploads/samlingplader/samlingplader4.png
+language: da
 ---
 
 Mangt en aften i Fablab Nordvest, Fablab TI og RUC har ledt til at alt træ, akryl, gummi er skåret og al ABS er 3D-printet. Derudover har jeg indkøbt en del af materialet på den alenlange indkøbsliste. Derfor drog jeg i weekenden til mine forældres sommerhus for at begynde byggeprocessen, hvor min far og bror har en del værkstedsmaterialer og værktøjer, og hvor der er plads til båden og bedre forhold til at bruge epoxy.

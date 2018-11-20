@@ -26,8 +26,10 @@ const CardWrapper = styled.div`
 const Title = styled.h3`
   position: relative;
   font-size: 2.4rem;
+  line-height: 1.25;
   font-weight: 600;
   margin-bottom: .8rem;
+  padding-bottom: .4rem;
   z-index: 100;
 
   &::after {

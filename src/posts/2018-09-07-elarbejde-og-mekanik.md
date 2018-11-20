@@ -3,6 +3,7 @@ layout: blog
 title: Elarbejde og mekanik
 date: '2018-09-07T17:34:30+02:00'
 thumbnail: /uploads/img_1743.png
+language: da
 ---
 Mine fine venner og gør-det-selv-mænd Morten og Jens Christian, har haft den venlighed at hjælpe mig med al elarbejdet til båden. Endnu en del af projektet hvor min naive selvtillid og gåpåmod måske har overskygget virkeligheden: Den del  havde jeg under ingen omstændigheder kunnet klare selv. 
 
