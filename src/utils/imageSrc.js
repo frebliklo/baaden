@@ -21,7 +21,7 @@ export const getImgSrcSet = image => {
 
 export const getImgSrc = image => {
   const imageBaseUrl = `${image}-/format/auto/-/scale_crop/`
-  const baseWidth = 1860
-  const baseHeight = 1400
+  const baseWidth = 930
+  const baseHeight = 700
   return `${imageBaseUrl}${baseWidth*2}x${baseHeight*2}/`
 }

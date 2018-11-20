@@ -6,6 +6,7 @@ import Markdown from 'react-markdown'
 
 import Container from '../components/Container'
 import Footer from '../components/Footer'
+import PostImg from '../components/PostImg'
 import SiteHead from '../components/SiteHead'
 import SoMeHead from '../components/SoMeHead'
 
@@ -75,6 +76,10 @@ const Content = styled(Markdown)`
   }
 `
 
+const renderers = {
+  image: PostImg
+}
+
 const Post = ({ post, posts }) => (
   <div>
     <Article>
@@ -92,7 +97,11 @@ const Post = ({ post, posts }) => (
           |
           <Author href="https://www.instagram.com/vhvh/">Julie Valentin-Hjorth</Author>
         </SubTitle>
-        <Content source={post.content} escapeHtml={false} />
+        <Content
+          source={post.content}
+          escapeHtml={false}
+          renderers={renderers}
+        />
       </Container>
     </Article>
     <Footer posts={posts} count={2} />

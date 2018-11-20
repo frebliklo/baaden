@@ -15,7 +15,7 @@ Også efter anden lag maling lod den skarpe kant  desværre stadig vente på sig
 
 ![null](https://ucarecdn.com/8dac94c9-b79e-4beb-85ce-75795e49cbce/)
 
-![null](https://ucarecdn.com/dcd54bf8-8bee-4fd0-b6f1-8fd211550e5a/img_0357.png)
+![null](https://ucarecdn.com/dcd54bf8-8bee-4fd0-b6f1-8fd211550e5a/)
 
 ![null](https://ucarecdn.com/3b6a6c69-21df-4e9c-85d9-55d7033323c3/)
 
