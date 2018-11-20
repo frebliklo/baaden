@@ -2,8 +2,14 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-media_folder: "public/uploads" # Media files will be stored in the repo under public/uploads
 public_folder: "/uploads" # Folder path where uploaded files will be accessed, relative to the base of the built site
+media_folder: "public/uploads" # Media files will be stored in the repo under public/uploads
+media_library:
+  name: uploadcare
+  config:
+    publicKey: b5da571d68ededa1baca
+    imagesOnly: true
+    imageShrink: "1900x1400 95%"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
