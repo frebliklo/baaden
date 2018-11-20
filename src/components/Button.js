@@ -21,7 +21,6 @@ const Button = styled(Link)`
     text-decoration: none;
 
     align-self: ${props => props.align};
-    float: ${props => props.float ? props.float : 'none'};
 
     cursor: pointer;
 

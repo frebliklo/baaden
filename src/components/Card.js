@@ -83,7 +83,7 @@ const Card = ({ date, excerpt, image, title, url }) => (
       srcSet={getCardSrcSet(image)}
       src={getCardSrc(image)}
     />
-    <Button to={url} float="right">Se mere</Button>
+    <Button to={url} align="flex-end">Se mere</Button>
   </CardWrapper>
 )
 

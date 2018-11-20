@@ -7,6 +7,8 @@ import Container from '../components/Container'
 import SiteHead from '../components/SiteHead'
 import WaveContainer from '../components/WaveContainer'
 
+import { PostContext } from '../App'
+
 const Page = styled.div`
   margin: 3.2rem 0 6.4rem 0;
 `
@@ -58,10 +60,7 @@ class Posts extends Component {
     return posts
   }
 
-  renderPosts = () => {
-    const filter = this.state.sortBy
-    const posts = this.props.posts
-
+  renderPosts = (posts, filter) => {
     const sortedPosts = this.sortPosts(posts,filter)
 
     return sortedPosts.map(post => (
@@ -77,23 +76,29 @@ class Posts extends Component {
   }
 
   render() {
+    const { posts } = this.props
+
     return (
       <div>
         <SiteHead title="Indlæg" />
-        <Page>
-          <Container>
-            <TitleContainer>
-              <h1>Indlæg</h1>
-              <select onChange={this.onSelectChange}>
-                <option value="newest">Nyeste først</option>
-                <option value="oldest">Ældste først</option>
-              </select>
-            </TitleContainer>
-            <Grid>
-              {this.renderPosts()}
-            </Grid>
-          </Container>
-        </Page>
+        <PostContext.Consumer>
+          {({ sortBy, changeSortBy }) => (
+            <Page>
+              <Container>
+                <TitleContainer>
+                  <h1>Indlæg</h1>
+                  <select onChange={changeSortBy}>
+                    <option value="newest">Nyeste først</option>
+                    <option value="oldest">Ældste først</option>
+                  </select>
+                </TitleContainer>
+                <Grid>
+                  {this.renderPosts(posts, sortBy)}
+                </Grid>
+              </Container>
+            </Page>
+          )}
+        </PostContext.Consumer>
         <footer>
           <WaveContainer />
         </footer>
