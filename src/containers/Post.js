@@ -63,6 +63,16 @@ const Content = styled(Markdown)`
     border-radius: 2px;
     margin-bottom: .8rem;
   }
+
+  & ul {
+    margin-bottom: 1.6rem;
+    padding: 0 2.4rem;
+
+    & li {
+      margin-bottom: .4rem;
+    }
+
+  }
 `
 
 const Post = ({ post, posts }) => (
