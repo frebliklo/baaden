@@ -6,7 +6,13 @@ import Button from './Button'
 
 import { theme } from '../constants'
 
+import { getCardSrcSet, getCardSrc } from '../utils/imageSrc'
+
 const CardWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
   position: relative;
   overflow: hidden;
   box-shadow: ${theme.shadows.default};
@@ -68,10 +74,15 @@ const Image = styled.img`
 
 const Card = ({ date, excerpt, image, title, url }) => (
   <CardWrapper>
-    <Title>{title}</Title>
-    <Date><Moment format="DD. MMM, YYYY">{date}</Moment></Date>
-    <Excerpt>{excerpt}</Excerpt>
-    <Image src={image} />
+    <div>
+      <Title>{title}</Title>
+      <Date><Moment format="DD. MMM, YYYY">{date}</Moment></Date>
+      <Excerpt>{excerpt}</Excerpt>
+    </div>
+    <Image
+      srcSet={getCardSrcSet(image)}
+      src={getCardSrc(image)}
+    />
     <Button to={url} float="right">Se mere</Button>
   </CardWrapper>
 )

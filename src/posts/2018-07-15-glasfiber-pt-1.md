@@ -2,7 +2,7 @@
 layout: blog
 title: 'Glasfiber pt.1'
 date: 2018-07-15T00:46:54.386Z
-thumbnail: /uploads/glasfiber/5.png
+thumbnail: 'https://ucarecdn.com/80ec83b4-a6d3-44f2-92cf-468091be54f0/'
 language: da
 ---
 
@@ -12,12 +12,12 @@ Først skal alle yderkanter samles med lange pølser af epoxy, ligesom at alle g
 
 Med fattis hjælp nåede båden at få epoxy, blive slebet og få glasfiber på kanterne - arbejdet forsættes i august!
 
-![Haven er inddraget](/uploads/glasfiber/1.png)
+![Haven er inddraget](https://ucarecdn.com/bb1fbd7d-1d27-4823-afe7-4aef515ed632/)
 
-![Glasfiber closeup](/uploads/glasfiber/2.png)
+![Glasfiber closeup](https://ucarecdn.com/70edfb49-b590-4777-beb6-2b631d69e3c7/)
 
-![Fatti er har også fået maske på](/uploads/glasfiber/3.png)
+![Fatti er har også fået maske på](https://ucarecdn.com/e0310160-994d-4b66-9146-79de60aada3d/)
 
-![Glasfiber på kanten](/uploads/glasfiber/4.png)
+![Glasfiber på kanten](https://ucarecdn.com/3ba8fbf1-73d8-4bba-9b5a-f0f3873a15a2/)
 
-![Endnu mere på kanten](/uploads/glasfiber/5.png)
+![Endnu mere på kanten](https://ucarecdn.com/80ec83b4-a6d3-44f2-92cf-468091be54f0/)

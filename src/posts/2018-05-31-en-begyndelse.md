@@ -2,7 +2,7 @@
 layout: blog
 title: 'En begyndelse'
 date: 2018-05-31T00:46:54.386Z
-thumbnail: /uploads/minibaad.jpg
+thumbnail: 'https://ucarecdn.com/ba515686-9e2d-4c5c-9acf-aecd5e84a9e1/'
 language: da
 ---
 

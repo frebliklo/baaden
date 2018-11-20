@@ -2,7 +2,7 @@
 layout: blog
 title: 'Laserskæring af træ'
 date: 2018-06-04T00:46:54.386Z
-thumbnail: /uploads/lasercut/laser1.png
+thumbnail: 'https://ucarecdn.com/f929ca90-ad4a-4d82-87b0-f6dd74cfbb08/'
 language: da
 ---
 
@@ -12,15 +12,15 @@ Man kan selvfølgelig vælge at få professionelle til at skære pladerne ud, me
 
 At få skåret pladerne tager sin tid - afhængig af detaljegraden op til 40 min pr stk. Derudover opstår der fejl, rettelser og lign. og jeg endte med at bruge en del aftener i Fablab NV og alle de plader jeg havde skåret - også de 4 ekstra jeg havde købt. Til gengæld er folkene og stemningen på Fablab Norvest i den grad indbydende, og alle har været meget interesserede i bådprojektet!
 
-![](/uploads/lasercut/laser1.png)
+![null](https://ucarecdn.com/f929ca90-ad4a-4d82-87b0-f6dd74cfbb08/)
 
 <div class="dual-image-container">
-  <img src="/uploads/lasercut/laser2.png" alt="" class="dual-image-container__img" />
-  <img src="/uploads/lasercut/laser3.png" alt="" class="dual-image-container__img" />
-  <img src="/uploads/lasercut/laser4.png" alt="" class="dual-image-container__img" />
-  <img src="/uploads/lasercut/laser5.png" alt="" class="dual-image-container__img" />
-  <img src="/uploads/lasercut/laser6.png" alt="" class="dual-image-container__img" />
-  <img src="/uploads/lasercut/laser7.png" alt="" class="dual-image-container__img" />
-  <img src="/uploads/lasercut/laser8.png" alt="" class="dual-image-container__img" />
-  <img src="/uploads/lasercut/laser9.png" alt="" class="dual-image-container__img" />
+  <img src="https://ucarecdn.com/3cc5a46f-ee05-42d6-b179-4f06f18af9e8/-/format/auto/-/scale-crop/1860x1400" srcset="https://ucarecdn.com/3cc5a46f-ee05-42d6-b179-4f06f18af9e8/-/format/auto/-/scale-crop/930x700, https://ucarecdn.com/3cc5a46f-ee05-42d6-b179-4f06f18af9e8/-/format/auto/-/scale-crop/1395x1050 1.5x, https://ucarecdn.com/3cc5a46f-ee05-42d6-b179-4f06f18af9e8/-/format/auto/-/scale-crop/1860x1400 2x" alt="" class="dual-image-container__img" />
+  <img src="https://ucarecdn.com/b584ea28-7a38-4d80-b23b-9f2de357d88f/-/format/auto/-/scale-crop/1860x1400" srcset="https://ucarecdn.com/b584ea28-7a38-4d80-b23b-9f2de357d88f/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/930x700, https://ucarecdn.com/b584ea28-7a38-4d80-b23b-9f2de357d88f/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1395x1050 1.5x, https://ucarecdn.com/b584ea28-7a38-4d80-b23b-9f2de357d88f/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1860x1400 2x" alt="" class="dual-image-container__img" />
+  <img src="https://ucarecdn.com/dcf6e1a8-a294-46ce-b27b-29a1b8f8ae9a/-/format/auto/-/scale-crop/1860x1400" srcset="https://ucarecdn.com/dcf6e1a8-a294-46ce-b27b-29a1b8f8ae9a/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/930x700, https://ucarecdn.com/dcf6e1a8-a294-46ce-b27b-29a1b8f8ae9a/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1395x1050 1.5x, https://ucarecdn.com/dcf6e1a8-a294-46ce-b27b-29a1b8f8ae9a/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1860x1400 2x" alt="" class="dual-image-container__img" />
+  <img src="https://ucarecdn.com/b718815d-6837-4427-a19a-85d23a960525/-/format/auto/-/scale-crop/1860x1400" srcset="https://ucarecdn.com/b718815d-6837-4427-a19a-85d23a960525/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/930x700, https://ucarecdn.com/b718815d-6837-4427-a19a-85d23a960525/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1395x1050 1.5x, https://ucarecdn.com/b718815d-6837-4427-a19a-85d23a960525/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1860x1400 2x" alt="" class="dual-image-container__img" />
+  <img src="https://ucarecdn.com/a2825b2f-9422-4e4e-91d4-5bebb5617796/-/format/auto/-/scale-crop/1860x1400" srcset="https://ucarecdn.com/a2825b2f-9422-4e4e-91d4-5bebb5617796/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/930x700, https://ucarecdn.com/a2825b2f-9422-4e4e-91d4-5bebb5617796/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1395x1050 1.5x, https://ucarecdn.com/a2825b2f-9422-4e4e-91d4-5bebb5617796/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1860x1400 2x" alt="" class="dual-image-container__img" />
+  <img src="https://ucarecdn.com/083aa8e7-88c9-49c3-ae8f-cf3846accbcb/-/format/auto/-/scale-crop/1860x1400" srcset="https://ucarecdn.com/083aa8e7-88c9-49c3-ae8f-cf3846accbcb/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/930x700, https://ucarecdn.com/083aa8e7-88c9-49c3-ae8f-cf3846accbcb/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1395x1050 1.5x, https://ucarecdn.com/083aa8e7-88c9-49c3-ae8f-cf3846accbcb/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1860x1400 2x" alt="" class="dual-image-container__img" />
+  <img src="https://ucarecdn.com/570892a8-99a1-4b4c-883a-43f46fad686a/-/format/auto/-/scale-crop/1860x1400" srcset="https://ucarecdn.com/570892a8-99a1-4b4c-883a-43f46fad686a/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/930x700, https://ucarecdn.com/570892a8-99a1-4b4c-883a-43f46fad686a/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1395x1050 1.5x, https://ucarecdn.com/570892a8-99a1-4b4c-883a-43f46fad686a/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1860x1400 2x" alt="" class="dual-image-container__img" />
+  <img src="https://ucarecdn.com/f0856efe-491b-42a9-b33a-0be8f9f2fb83/-/format/auto/-/scale-crop/1860x1400" srcset="https://ucarecdn.com/f0856efe-491b-42a9-b33a-0be8f9f2fb83/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/930x700, https://ucarecdn.com/f0856efe-491b-42a9-b33a-0be8f9f2fb83/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1395x1050 1.5x, https://ucarecdn.com/f0856efe-491b-42a9-b33a-0be8f9f2fb83/-/format/auto/-/scale-crop/1860x1400-/format/auto/-/scale-crop/1860x1400 2x" alt="" class="dual-image-container__img" />
 </div>
