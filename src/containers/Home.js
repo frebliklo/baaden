@@ -1,5 +1,5 @@
 import React from 'react'
-import { withRouteData, PrefetchWhenSeen } from 'react-static'
+import { withRouteData } from 'react-static'
 
 import Footer from '../components/Footer'
 import IndexHero from '../components/IndexHero'
@@ -11,7 +11,6 @@ const Home = ({ posts }) => (
     <main>
       <IndexHero />
     </main>
-    <PrefetchWhenSeen path="/posts" />
     <Footer posts={posts} count={4} />
   </div>
 )

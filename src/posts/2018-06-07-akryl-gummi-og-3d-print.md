@@ -2,7 +2,7 @@
 layout: blog
 title: 'Akryl, gummi og 3D-print'
 date: 2018-06-07T00:46:54.386Z
-thumbnail: /uploads/akrylgummidele/akryl2.png
+thumbnail: 'https://ucarecdn.com/4b247ae1-eeef-41cf-9ef4-0ba872881343/'
 language: da
 ---
 
@@ -12,6 +12,6 @@ Udover at printe 3D-ting og levere gode jokes, tilbyder Line og værkstedet på 
 
 Andre dele end skroget skal laserskæres (bla. rattet), så mens Line satte printeren over, kunne jeg få lov til at skære en masse akryl- og gummidele.
 
-![](/uploads/akrylgummidele/akryl1.png)
+![null](https://ucarecdn.com/aebb14b4-07c1-49ad-982f-38ff3d188f4b/)
 
-![](/uploads/akrylgummidele/akryl2.png)
+![null](https://ucarecdn.com/4b247ae1-eeef-41cf-9ef4-0ba872881343/)

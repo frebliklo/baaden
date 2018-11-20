@@ -1,5 +1,5 @@
 import React from 'react'
-import { withRouteData } from 'react-static'
+import { withRouteData, Link } from 'react-static'
 import styled from 'styled-components'
 import Moment from 'react-moment'
 import Markdown from 'react-markdown'
@@ -11,9 +11,19 @@ import SoMeHead from '../components/SoMeHead'
 
 import { theme, sizes } from '../constants'
 
+import { getImgSrc } from '../utils/imageSrc'
+
 const Article = styled.article`
   margin: 1.6rem 0 6.4rem 0;
   min-height: 60vh;
+`
+
+const BackLink = styled(Link)`
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: .8rem;
+  padding: .4rem;
 `
 
 const Title = styled.h1`
@@ -57,11 +67,12 @@ const Content = styled(Markdown)`
   @media (min-width: ${sizes.tabLand}) { margin-top: 6.4rem; }
 
   & img {
-    width: 100%;
-    object-fit: fill;
+    max-width: 100%;
+    object-fit: contain;
     box-shadow: ${theme.shadows.image};
     border-radius: 2px;
-    margin-bottom: .8rem;
+    margin: auto;
+    z-index: 900;
   }
 
   & ul {
@@ -75,6 +86,12 @@ const Content = styled(Markdown)`
   }
 `
 
+const PostImage = ({ alt, src }) => <img alt={alt} src={getImgSrc(src)} srcSet={getImgSrc(src)} />
+
+const renderers = {
+  image: PostImage
+}
+
 const Post = ({ post, posts }) => (
   <div>
     <Article>
@@ -86,13 +103,18 @@ const Post = ({ post, posts }) => (
         url={`/posts/${post.data.slug}`}
       />
       <Container>
+        <BackLink to="/posts">&larr; Alle indlæg</BackLink>
         <Title>{post.data.title}</Title>
         <SubTitle>
           <Timestamp><Moment format="DD. MMM, YYYY">{post.data.date}</Moment></Timestamp>
           |
           <Author href="https://www.instagram.com/vhvh/">Julie Valentin-Hjorth</Author>
         </SubTitle>
-        <Content source={post.content} escapeHtml={false} />
+        <Content
+          source={post.content}
+          escapeHtml={false}
+          renderers={renderers}
+        />
       </Container>
     </Article>
     <Footer posts={posts} count={2} />
