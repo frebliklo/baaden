@@ -109,23 +109,18 @@ const renderers = {
 }
 
 class Post extends Component {
-  state = {
-    nextPost: undefined,
-    prevPost: undefined
-  }
+  constructor(props) {
+    super(props)
 
-  componentWillReceiveProps() {
-    const { post: currentPost, posts } = this.props
-    const currentPostIndex = posts.findIndex(post => post.data.title === currentPost.data.title)
-    const postsLength = posts.length - 1
-    const nextPost = posts[currentPostIndex + 1] < postsLength ? null : posts[currentPostIndex + 1]
-    this.setState(() => ({
-      nextPost,
-      prevPost: posts[currentPostIndex - 1]
-    }))
-    // console.log(this.props.posts.length)
-    // console.log(this.props.posts[currentPostIndex])
-    // console.log(this.props.posts)
+    this.currentPostIndex = props.posts.findIndex(post => post.data.title === props.post.data.title)
+    this.postsLength = props.posts.length -1
+    this.nextPost = props.posts[this.currentPostIndex + 1] < this.postsLength ? null : props.posts[this.currentPostIndex + 1]
+    this.prevPost = props.posts[this.currentPostIndex - 1] > 0 ? null : props.posts[this.currentPostIndex - 1]
+
+    this.state = {
+      nextPost: this.nextPost,
+      prevPost: this.prevPost
+    }
   }
 
   render() {
