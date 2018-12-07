@@ -23,7 +23,7 @@ const CardWrapper = styled.div`
   padding: 1.2rem 1.6rem;
   color: ${theme.colors.fg};
 
-  &:hover {
+  &:hover,&:focus {
     box-shadow: ${theme.shadows.hover};
     transition: box-shadow 220ms ease-out;
   }

@@ -47,7 +47,7 @@ class Footer extends Component {
       return 0
     })
 
-  renderPosts = (posts,count = 2) => {
+  renderPosts = (posts, count = 2) => {
     const sortedPosts = this.sortPosts(posts)
     const previewPosts = sortedPosts.slice(0,count)
 
