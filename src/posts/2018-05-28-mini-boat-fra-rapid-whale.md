@@ -18,6 +18,6 @@ _The lack of understanding the limits of my own abilities, as well as indomitabl
 Firmaet sælger både kits og planer til båden, og jeg endte med at købe planerne. Det betyder at jeg selv skal laserskære træet, 3D-printe ABS-dele og købe alle smådelene til at samle hele molevitten, men forhåbentlig medfølger også en ekstra stærk følelse af tilfredshed når jeg engang når vejs ende.
 
 \-----\
-_It's possible to buy both the a kit or plans for the boat, and I ended up buying the plans. This means that I have to laser cut the wood, 3D print ABS parts and buy all the small parts to assemble everything, but hopefully this also leads to a strong sense of satisfaction buy the end of the project._
+_It's possible to buy both kits or plans for the boat, and I ended up buying the plans. This means that I have to laser cut the wood, 3D print ABS parts and buy all the small parts to assemble everything, but hopefully this also leads to a strong sense of satisfaction buy the end of the project._
 
 <img src="https://ucarecdn.com/ba515686-9e2d-4c5c-9acf-aecd5e84a9e1/-/format/auto/-/scale_crop/1860x1400/center/" srcset="https://ucarecdn.com/ba515686-9e2d-4c5c-9acf-aecd5e84a9e1/-/format/auto/-/scale_crop/930x700/center/, https://ucarecdn.com/ba515686-9e2d-4c5c-9acf-aecd5e84a9e1/-/format/auto/-/scale_crop/1395x1050/center/ 1.5x, https://ucarecdn.com/ba515686-9e2d-4c5c-9acf-aecd5e84a9e1/-/format/auto/-/scale_crop/1860x1400/center/ 2x" class="no-shadow" />
