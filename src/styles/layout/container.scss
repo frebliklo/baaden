@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+.content {
+  min-height: 80vh;
+}

@@ -1,0 +1,42 @@
+.home {
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-fg;
+    text-align: center;
+    max-width: 96rem;
+    margin: 1.6rem auto 1.6rem auto;
+    padding: 0 1.6rem;
+    overflow: hidden;
+
+    @media (min-width: $tab-land) {
+      margin: 5.6rem auto 9.6rem auto;
+    }
+  }
+
+  &__title {
+    font-size: 8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    background: $gradient-text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media (min-width: $tab-port) {
+      font-size: 9.6rem;
+    }
+  }
+
+  &__subtitle {
+    font-size: 2.4rem;
+    font-weight: 400;
+
+    & > span {
+      text-decoration: line-through;
+    }
+  }
+}

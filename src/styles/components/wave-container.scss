@@ -1,0 +1,17 @@
+.wave-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: $gradient-ocean;
+  padding: 8rem 0 11.2rem 0;
+  color: $color-white;
+  min-height: 32rem;
+
+  &__svg {
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 100%;
+    height: 48px;
+  }
+}
