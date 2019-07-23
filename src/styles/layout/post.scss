@@ -54,6 +54,10 @@
     & p + p > img {
       margin-top: 0.8rem;
     }
+
+    & p + span > img {
+      margin-top: 2.4rem;
+    }
   }
 
   &__more {

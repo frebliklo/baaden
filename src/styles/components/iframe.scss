@@ -2,6 +2,7 @@
   position: relative;
   height: 0;
   overflow: hidden;
+  margin: 2.4rem 0 3.2rem;
 }
 
 .iframe__16x9 {
@@ -14,4 +15,8 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.no-shadow {
+  box-shadow: none !important;
 }
