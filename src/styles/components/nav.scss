@@ -1,0 +1,153 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.4rem 0;
+
+  &__list {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__select {
+    border: none;
+    background: none;
+  }
+
+  &__item {
+    padding: 0 0.4rem;
+    overflow: hidden;
+
+    &:not(:first-child) {
+      margin-left: 1.6rem;
+    }
+
+    & .nav__link {
+      position: relative;
+
+      &,
+      &:link,
+      &:visited {
+        text-decoration: none;
+        color: $color-grey;
+        transition: color 150ms ease-in;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: -2px;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background: $color-grey;
+        transform: translateX(-120%);
+        transition: transform 150ms ease-in, background 150ms ease-in;
+      }
+
+      &:hover {
+        color: $color-fg;
+        transition: color 200ms ease-out;
+
+        &::after {
+          background: $color-fg;
+          transform: translateX(-40%);
+          transition: transform 200ms ease-out, background 200ms ease-out;
+        }
+      }
+
+      &:active,
+      &:focus {
+        color: $color-black;
+        transition: color 175ms ease-in-out;
+
+        &::after {
+          transform: translateX(-10%);
+          transition: transform 175ms ease-in-out;
+        }
+      }
+
+      &--active {
+        &,
+        &:link,
+        &:visited {
+          color: $color-black;
+        }
+
+        &::after {
+          background: $color-fg;
+          transform: translateX(0%);
+        }
+      }
+    }
+  }
+}
+
+.porthole {
+  width: 2.4rem;
+  height: 2.4rem;
+  overflow: visible !important;
+
+  &__sky {
+    fill: $color-blue-light;
+    opacity: 0.2;
+    transition: opacity 160ms ease-in;
+
+    @media (min-width: $tab-land) {
+      opacity: 0;
+    }
+  }
+
+  &__ocean {
+    fill: $color-blue-dark;
+    opacity: 1;
+    transition: opacity 160ms ease-in;
+
+    @media (min-width: $tab-land) {
+      opacity: 0.2;
+    }
+  }
+
+  &__inner-shadow {
+    fill: $color-black;
+    opacity: 0.05;
+    transition: opacity 160ms ease-in;
+
+    @media (min-width: $tab-land) {
+      opacity: 0;
+    }
+  }
+
+  &__outer-ring {
+    fill: $color-maroon;
+    transition: fill 160ms ease-in;
+
+    @media (min-width: $tab-land) {
+      fill: rgba($color-maroon, 0.6);
+    }
+  }
+}
+
+.nav__hero {
+  &:hover .porthole {
+    &__sky {
+      opacity: 0.5;
+      transition: opacity 220ms ease-out;
+    }
+
+    &__ocean {
+      opacity: 1;
+      transition: opacity 220ms ease-out;
+    }
+
+    &__inner-shadow {
+      opacity: 0.1;
+      transition: opacity 220ms ease-out;
+    }
+
+    &__outer-ring {
+      fill: $color-maroon;
+      transition: fill 220ms ease-out;
+    }
+  }
+}

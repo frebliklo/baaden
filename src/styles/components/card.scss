@@ -1,0 +1,69 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  position: relative;
+  overflow: hidden;
+  box-shadow: $shadow-default;
+  border-radius: 0.8rem;
+  background: linear-gradient(
+    to bottom,
+    #fff 0%,
+    #fff 30%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  transition: box-shadow 200ms ease-in;
+  text-decoration: none;
+  padding: 1.2rem 1.6rem;
+  color: $color-fg;
+
+  &:hover,
+  &:focus {
+    box-shadow: $shadow-hover;
+    transition: box-shadow 220ms ease-out;
+  }
+
+  &__title {
+    position: relative;
+    font-size: 2.4rem;
+    line-height: 1.25;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.4rem;
+    z-index: 100;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 92%;
+      height: 0.2rem;
+      background: $color-blue-light;
+    }
+  }
+
+  &__date {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 0.8rem;
+    z-index: 100;
+  }
+
+  &__excerpt {
+    font-size: 1.6rem;
+    padding-bottom: 8rem;
+    z-index: 100;
+  }
+
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -5;
+  }
+}

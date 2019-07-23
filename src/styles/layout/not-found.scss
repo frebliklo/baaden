@@ -1,0 +1,13 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 32rem;
+  min-height: 32vh;
+  margin-top: 8rem;
+
+  &__subtitle {
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+  }
+}

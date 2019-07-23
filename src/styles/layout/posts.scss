@@ -1,0 +1,18 @@
+.posts {
+  margin: 3.2rem 0 6.4rem 0;
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 44.8rem));
+    grid-gap: 3.2rem;
+    justify-content: center;
+  }
+}

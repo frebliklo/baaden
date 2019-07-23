@@ -1,0 +1,50 @@
+.button {
+  &,
+  &:link,
+  &:visited {
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+
+    position: relative;
+    overflow: hidden;
+    z-index: 500;
+
+    outline: none;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    color: $color-fg;
+    border: 1px solid #eee;
+    background: #fff;
+    box-shadow: $shadow-default;
+    transition: color 150ms ease-in, background 150ms ease-in,
+      box-shadow 150ms ease-in;
+
+    &:hover,
+    &:focus {
+      color: $color-blue-dark;
+      background: $color-white;
+      box-shadow: $shadow-hover;
+      transition: color 200ms ease-out, background 200ms ease-out,
+        box-shadow 200ms ease-out;
+    }
+
+    &__outline {
+      color: currentColor;
+      border: 1px solid currentColor;
+      background: none;
+      box-shadow: none;
+
+      &:hover,
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}

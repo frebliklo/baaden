@@ -1,0 +1,19 @@
+.dual-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.dual-image-container__img {
+  width: 100%;
+  margin-bottom: 2.4rem !important;
+}
+
+@media (min-width: 45em) {
+  .dual-image-container__img {
+    width: 49% !important;
+  }
+}
