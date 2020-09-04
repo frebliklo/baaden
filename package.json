@@ -19,7 +19,7 @@
     "gray-matter": "^4.0.2",
     "klaw": "^3.0.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-markdown": "^4.1.0",
